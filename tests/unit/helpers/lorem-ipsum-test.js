@@ -21,22 +21,22 @@ var text =
 'sunt in culpa qui officia deserunt mollit anim id est laborum';
   var oneParagraph = '<p class=\"lorem_ipsum\">'+text+'.</p>';
 
-  var result = loremIpsum({length: 0});
+  var result = loremIpsum(null, {length: 0});
   assert.equal(result.string, oneParagraph, 'length 0');
 
-  result = loremIpsum({length: -1});
+  result = loremIpsum(null, {length: -1});
   assert.equal(result.string, oneParagraph, 'length -1');
 
   result = loremIpsum();
   assert.equal(result.string, oneParagraph, 'no length');
 
-  result = loremIpsum({length: 444});
+  result = loremIpsum(null, {length: 444});
   assert.equal(result.string, oneParagraph, 'exact same length');
 
-  result = loremIpsum({length: 11});
+  result = loremIpsum(null, {length: 11});
   assert.equal(result.string, '<p class=\"lorem_ipsum\">Lorem ipsum.</p>');
 
   var twoParagraphs = '<p class=\"lorem_ipsum\">'+text+'. '+text+'.</p>';
-  result = loremIpsum({length: 888});
+  result = loremIpsum(null, {length: 888});
   assert.equal(result.string, twoParagraphs, 'two paragraphs');
 });

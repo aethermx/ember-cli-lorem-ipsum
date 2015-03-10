@@ -9,7 +9,7 @@ var originalText =
 'eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, '+
 'sunt in culpa qui officia deserunt mollit anim id est laborum';
 
-export function loremIpsum(/*params,*/ hash) {
+export function loremIpsum(params, hash) {
   var text = originalText;
 
   if ( ! hash || ! hash.length || hash.length < 0 ) {
