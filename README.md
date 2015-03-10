@@ -1,6 +1,8 @@
-# Ember-cli-lorem-ipsum
+# ember-cli-lorem-ipsum
 
-This README outlines the details of collaborating on this Ember addon.
+[![Build Status](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum.svg?branch=master)](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum)
+
+Provides a helper that makes it easy to add dummy text.
 
 ## Installation
 
