@@ -8,6 +8,10 @@ The text will be returned inside a `<p>` tag like this:
 
     <p class="lorem_ipsum">Lorem ipsum.</p>  
 
+## Addon Install
+
+  ember install:addon ember-cli-lorem-ipsum
+
 ## Examples
 
 #### no length
