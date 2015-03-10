@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-lorem-ipsum",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A helper that makes it easy to add dummy text.",
   "directories": {
     "doc": "doc",
