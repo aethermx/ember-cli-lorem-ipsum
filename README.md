@@ -2,15 +2,16 @@
 
 [![Build Status](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum.svg?branch=master)](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum)
 
-Provides a helper that makes it easy to add dummy text. The only option that the helper accepts is **length**.
+
+## Addon Install
+
+    ember install:addon ember-cli-lorem-ipsum
+    
+It provides a helper that makes it easy to add dummy text. The only option that the helper accepts is **length**.
 
 The text will be returned inside a `<p>` tag like this:
 
     <p class="lorem_ipsum">Lorem ipsum.</p>  
-
-## Addon Install
-
-  ember install:addon ember-cli-lorem-ipsum
 
 ## Examples
 
