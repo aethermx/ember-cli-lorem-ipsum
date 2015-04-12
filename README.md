@@ -1,6 +1,6 @@
 # ember-cli-lorem-ipsum
 
-[![Build Status](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum.svg?branch=master)](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum)
+[![Build Status](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum.svg?branch=master)](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum) [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-lorem-ipsum.svg)](http://emberobserver.com/addons/ember-cli-lorem-ipsum)
 
 
 ## Addon Install
