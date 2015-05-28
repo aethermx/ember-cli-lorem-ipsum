@@ -1,10 +1,14 @@
 # ember-cli-lorem-ipsum
 
-[![Build Status](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum.svg?branch=master)](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum) [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-lorem-ipsum.svg)](http://emberobserver.com/addons/ember-cli-lorem-ipsum)
+[![Build Status](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum.svg?branch=master)](https://travis-ci.org/aethermx/ember-cli-lorem-ipsum)
+[![Ember Observer Score](http://emberobserver.com/badges/ember-cli-lorem-ipsum.svg)](http://emberobserver.com/addons/ember-cli-lorem-ipsum)
+[![Code Climate](https://codeclimate.com/github/aethermx/ember-cli-lorem-ipsum/badges/gpa.svg)](https://codeclimate.com/github/aethermx/ember-cli-lorem-ipsum)
 
 
 ## Addon Install
 
+    ember install ember-cli-lorem-ipsum
+    # if ember-cli <= 0.2.2
     ember install:addon ember-cli-lorem-ipsum
     
 It provides a helper that makes it easy to add dummy text. The only option that the helper accepts is **length**.
