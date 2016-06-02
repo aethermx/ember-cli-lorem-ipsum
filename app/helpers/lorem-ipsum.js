@@ -33,7 +33,7 @@ export function loremIpsum(params, hash) {
 
   text += '.';
 
-  if (hash.html === false) {
+  if (hash && hash.html === false) {
       return text;
   }
 
